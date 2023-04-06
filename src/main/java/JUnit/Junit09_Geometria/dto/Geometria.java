@@ -27,7 +27,8 @@ public class Geometria {
 	//metodo area del circulo
 	public double areaCirculo(int r){
 		final double PI=3.1416; 
-		return  PI * Math.pow(r,2);
+		area =  PI * Math.pow(r,2);
+		return area;
 		}
 	
 	//metodo area del triangulo
